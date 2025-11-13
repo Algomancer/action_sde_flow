@@ -572,7 +572,7 @@ if __name__ == "__main__":
         n_steps=n_steps,
         n_iter=4000,
         batch_size=64,
-        lam_act=1.0,      # path action (kinetic + diffusion)
+        lam_act=0.0,      # path action (kinetic + diffusion)
     )
 
     xs_gen_final = sample_trajectories(
